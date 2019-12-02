@@ -3,6 +3,8 @@ dictionary-style access, object serialization
 and compression, and multiple storage and caching
 backends.
 
+SQLite prefix is lite://
+
 Currently supported storage backends are:
 
 - Amazon S3 Web Service
