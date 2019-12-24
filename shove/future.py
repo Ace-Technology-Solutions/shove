@@ -10,6 +10,8 @@ def getVersion():
     if versionNum == 1:
         print("Very old python found")
         return 2
-    elif versionNum = 4:
+    elif versionNum == 4:
         print("Far future dev test detected")
         return 3
+    else:
+        return versionNum
