@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
+from shove.future import getVersion
+if getVersion() == 2:
+    from urllib import url2pathname
+elif getVersion() == 3:
+    from urllib.request import url2pathname
 
-from urllib import url2pathname
 from shove.store.simple import SimpleStore
 
 
