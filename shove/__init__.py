@@ -8,4 +8,4 @@ from shove.base import *
 from shove.cache import *
 __version__ = (0, 5, 4) # Forked VERSION
 
-__all__ = ['Shove']
+__all__ = ['Shove','BaseStore','MemoryStore','DBMStore','ClientStore','SyncStore','FileStore']

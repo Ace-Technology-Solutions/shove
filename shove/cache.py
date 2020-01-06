@@ -14,7 +14,7 @@ from shove.base import Mapping, FileBase
 
 __all__ = [
     'FileCache', 'FileLRUCache', 'MemoryCache', 'MemoryLRUCache',
-    'SimpleLRUCache', 'SimpleCache',
+    'SimpleLRUCache', 'SimpleCache'
 ]
 
 
