@@ -2,7 +2,7 @@
 '''
 Common object storage frontend.
 '''
-
+print("Correct init run")
 from shove.core import Shove
 from shove.base import *
 from shove.cache import *
